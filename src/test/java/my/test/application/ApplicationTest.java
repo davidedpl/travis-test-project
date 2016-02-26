@@ -6,15 +6,14 @@ import org.eclipse.jetty.http.HttpStatus;
 import org.junit.ClassRule;
 import org.junit.Test;
 
-import io.dropwizard.Configuration;
 import io.dropwizard.testing.ResourceHelpers;
 import io.dropwizard.testing.junit.DropwizardAppRule;
 
 public class ApplicationTest {
 
   @ClassRule
-  public static final DropwizardAppRule<Configuration> rule =
-      new DropwizardAppRule<Configuration>(
+  public static final DropwizardAppRule<ExampleConfiguration> rule =
+      new DropwizardAppRule<ExampleConfiguration>(
           TestApplication.class,
           ResourceHelpers.resourceFilePath("configuration/test.yml"));
 
