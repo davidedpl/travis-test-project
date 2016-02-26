@@ -1,0 +1,14 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 9083
+  requestLog:
+      timeZone: UTC
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
