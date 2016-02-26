@@ -36,12 +36,6 @@
       <artifactId>dropwizard-guice</artifactId>
       <version>${dropwizard-guice.version}</version>
     </dependency>
-    <dependency>
-      <groupId>com.photobox.services.dropwizard</groupId>
-      <artifactId>dropwizard-logstash-encoder</artifactId>
-      <version>1.0-dw0.9.x</version>
-    </dependency>
-
 
     <!-- TEST DEPENDENCIES -->
     <dependency>
