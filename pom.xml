@@ -37,6 +37,11 @@
       <version>${dropwizard-guice.version}</version>
     </dependency>
     <dependency>
+      <groupId>io.dropwizard</groupId>
+      <artifactId>dropwizard-db</artifactId>
+      <version>${dropwizard.version}</version>
+    </dependency>
+    <dependency>
       <groupId>io.dropwizard.modules</groupId>
       <artifactId>dropwizard-flyway</artifactId>
       <version>0.9.0-1</version>
