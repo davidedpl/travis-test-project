@@ -1,6 +1,11 @@
 language: java
 
-services: mysql
+services:
+  - mysql
+
+cache:
+  directories:
+  - $HOME/.m2
 
 before_install:
   - mysql -e "create database IF NOT EXISTS test;" -uroot
